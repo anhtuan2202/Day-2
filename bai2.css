@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h1{
+    background-color: #808080;
+}
+ul {
+    list-style-type: none; /* Xóa dấu chấm đầu dòng */
+    padding: 0;
+}
+li:first-child {
+    font-style: italic; /* Nghiêng chữ */
+    text-transform: uppercase; /* Viết hoa toàn bộ */
+}
+li:nth-child(odd) {
+    color: blue; /* Màu cho phần tử lẻ */
+}
+li:nth-child(even) {
+    color: green; /* Màu cho phần tử chẵn */
+}
+li:last-child {
+    text-decoration: underline; /* Gạch chân */
+    font-weight: bold; /* In đậm */
+}
